@@ -1,5 +1,5 @@
 # flask-sqlalchemy-template
-**Getting started**
+**Getting started** <br>
 Clone project by the following 
 
 ```
@@ -26,20 +26,20 @@ pip3 install -r requirements.txt
 
 This will install all the necessary packages in this project. You can view them in requirements.txt
 
-**Get Flask started**
+**Get Flask started** <br>
 To get the Flask server up and running run the following commands:
 ```
 echo FLASK_APP=run.py    #this file could be named differently, in this project it's run.py
 echo FLASK_ENV=development
 ```
 
-**Database connection**
+**Database connection**  <br>
 In config.py add the correct postgresql url which should be formatted like this:
 ```
 postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
 ```
 
-**Finalize**
+**Finalize**  <br>
 In `app/__init__.py` add your own url_prefix. In the case of building an api it could potentially be `/api/v1`
 
 Then the last thing to do is to run:
