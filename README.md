@@ -3,7 +3,7 @@
 Clone project by the following 
 
 ```
-git clone <ssh_url>
+git clone git@github.com:Micheledebruyn/flask-sqlalchemy-template.git
 ```
 
 After cloning initialize venv by running
