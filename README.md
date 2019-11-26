@@ -34,7 +34,7 @@ echo FLASK_ENV=development
 ```
 
 **Database connection**  <br>
-In config.py add the correct postgresql url which should be formatted like this:
+In `config.py` add the correct postgresql url which should be formatted like this:
 ```
 postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
 ```
