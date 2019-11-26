@@ -21,7 +21,7 @@ After this there is a local environment running.
 
 With this environment ready you can run all the packages to install with the following:
 ```
-pip3 install -r requierements.txt
+pip3 install -r requirements.txt
 ```
 
 This will install all the necessary packages in this project. You can view them in requirements.txt
