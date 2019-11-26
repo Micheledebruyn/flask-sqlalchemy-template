@@ -32,3 +32,19 @@ To get the Flask server up and running run the following commands:
 echo FLASK_APP=run.py    #this file could be named differently, in this project it's run.py
 echo FLASK_ENV=development
 ```
+
+**Database connection**
+In config.py add the correct postgresql url which should be formatted like this:
+```
+postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
+```
+
+**Finalize**
+In `app/__init__.py` add your own url_prefix. In the case of building an api it could potentially be `/api/v1`
+
+Then the last thing to do is to run:
+```
+flask run
+```
+
+And go visit `http://localhost:5000` !
