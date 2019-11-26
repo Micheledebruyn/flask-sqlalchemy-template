@@ -1,4 +1,4 @@
-# flask-sqlalchemy-template
+# Flask SQLAlchemy template
 **Getting started** <br>
 Clone project by the following 
 
