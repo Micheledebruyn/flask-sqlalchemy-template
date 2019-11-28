@@ -29,8 +29,8 @@ This will install all the necessary packages in this project. You can view them 
 **Get Flask started** <br>
 To get the Flask server up and running run the following commands:
 ```
-echo FLASK_APP=run.py    #this file could be named differently, in this project it's run.py
-echo FLASK_ENV=development
+export FLASK_APP=run.py    #this file could be named differently, in this project it's run.py
+export FLASK_ENV=development
 ```
 
 **Database connection**  <br>
