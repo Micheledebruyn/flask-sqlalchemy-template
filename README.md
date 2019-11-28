@@ -41,10 +41,12 @@ postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
 
 **Finalize**  <br>
 In `app/__init__.py` add your own url_prefix. In the case of building an api it could potentially be `/api/v1`
+If you don't want a prefix, or are not sure yet, you can just add a `/` there between the quotes and the index will be at the root url.
+
 
 Then the last thing to do is to run:
 ```
 flask run
 ```
 
-And go visit `http://localhost:5000` !
+And go visit `http://localhost:5000/<PREFIX>` ! 
