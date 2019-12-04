@@ -1,6 +1,6 @@
 # Flask SQLAlchemy template
 **Getting started** <br>
-Clone project by the following 
+Clone project by the following commands
 
 ```
 git clone git@github.com:Micheledebruyn/flask-sqlalchemy-template.git
@@ -16,7 +16,7 @@ To **activate** this environment run:
 source venv/bin/activate
 ```
 
-After this there is a local environment running.
+After this there is a local environment running. It should be visible on the command line, in front of the prompt and path it should show `(venv)`
 
 
 With this environment ready you can run all the packages to install with the following:
